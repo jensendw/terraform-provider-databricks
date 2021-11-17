@@ -1,17 +1,17 @@
 ---
-subcategory: "MLFlow"
+subcategory: "MLflow"
 ---
 # databricks_mlflow_experiment Resource
 
-This resource allows you to create MLFlow experiments in Databricks.
+This resource allows you to create MLflow experiments in Databricks.
 
 ## Example Usage
 
 ```hcl
 resource "databricks_mlflow_experiment" "test" {
-  name = "My MLFlow Experiment"
+  name = "My MLflow Experiment"
 
-  description = "My MLFlow experiment description"
+  description = "My MLflow experiment description"
 
   tags {
     key   = "key1"
@@ -28,13 +28,6 @@ resource "databricks_mlflow_experiment" "test" {
 
 The following arguments are supported:
 
-* `name` - (Required) Name of MLFLow experiment.
-* `description` - The description of the MLFlow experiment.
-* `tags` - Tags for the MLFlow experiment.
-
-## Attribute Reference
-
-In addition to all arguments above, the following attributes are exported:
-
-* `name` - The name of the MLFlow experiment.
-* `description` - The description of the MLFlow experiment.
+* `name` - (Required) Name of MLflow experiment.
+* `description` - The description of the MLflow experiment.
+* `tags` - Tags for the MLflow experiment.

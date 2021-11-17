@@ -1,17 +1,17 @@
 ---
-subcategory: "MLFlow"
+subcategory: "MLflow"
 ---
 # databricks_mlflow_model Resource
 
-This resource allows you to create MLFlow models in Databricks.
+This resource allows you to create MLflow models in Databricks.
 
 ## Example Usage
 
 ```hcl
 resource "databricks_mlflow_model" "test" {
-  name = "My MLFlow Model"
+  name = "My MLflow Model"
 
-  description = "My MLFlow model description"
+  description = "My MLflow model description"
 
   tags {
     key   = "key1"
@@ -28,13 +28,6 @@ resource "databricks_mlflow_model" "test" {
 
 The following arguments are supported:
 
-* `name` - (Required) Name of MLFLow model.
-* `description` - The description of the MLFlow model.
-* `tags` - Tags for the MLFlow model.
-
-## Attribute Reference
-
-In addition to all arguments above, the following attributes are exported:
-
-* `name` - The name of the MLFlow model.
-* `description` - The description of the MLFlow model.
+* `name` - (Required) Name of MLflow model.
+* `description` - The description of the MLflow model.
+* `tags` - Tags for the MLflow model.
